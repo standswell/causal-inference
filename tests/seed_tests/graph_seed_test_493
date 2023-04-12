@@ -1,0 +1,11 @@
+digraph {
+	X
+	Y
+	Z
+	E
+	X -> Z [label=0.19]
+	X -> E [label=0.92]
+	Y -> Z [label=1.5]
+	Y -> E [label=0.78]
+	Z -> E [label=0.48]
+}

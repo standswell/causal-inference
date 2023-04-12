@@ -1,0 +1,36 @@
+digraph {
+	fixed_acidity
+	volatile_acidity
+	citric_acid
+	residual_sugar
+	chlorides
+	free_sulfur_dioxide
+	total_sulfur_dioxide
+	density
+	pH
+	sulphates
+	alcohol
+	quality
+	fixed_acidity -> density [label=0.0]
+	fixed_acidity -> alcohol [label=-0.24]
+	citric_acid -> fixed_acidity [label=1.62]
+	citric_acid -> volatile_acidity [label=-0.13]
+	citric_acid -> chlorides [label=0.02]
+	residual_sugar -> alcohol [label=0.08]
+	chlorides -> alcohol [label=-0.27]
+	free_sulfur_dioxide -> fixed_acidity [label=-0.02]
+	free_sulfur_dioxide -> volatile_acidity [label=0.0]
+	free_sulfur_dioxide -> residual_sugar [label=0.03]
+	free_sulfur_dioxide -> total_sulfur_dioxide [label=1.8]
+	total_sulfur_dioxide -> volatile_acidity [label=0.0]
+	total_sulfur_dioxide -> residual_sugar [label=0.09]
+	total_sulfur_dioxide -> density [label=0.0]
+	total_sulfur_dioxide -> sulphates [label=-0.0]
+	density -> residual_sugar [label=15.44]
+	density -> alcohol [label=-4.24]
+	pH -> fixed_acidity [label=-2.15]
+	pH -> residual_sugar [label=-3.44]
+	pH -> sulphates [label=0.12]
+	quality -> volatile_acidity [label=-0.02]
+	quality -> alcohol [label=-0.01]
+}

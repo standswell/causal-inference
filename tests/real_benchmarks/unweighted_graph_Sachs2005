@@ -1,0 +1,58 @@
+digraph {
+	raf
+	mek
+	plc
+	pip2
+	pip3
+	erk
+	akt
+	pka
+	pkc
+	p38
+	jnk
+	cd3_cd28
+	icam2
+	aktinhib
+	g0076
+	psitect
+	u0126
+	ly
+	pma
+	b2camp
+	raf -> mek
+	raf -> g0076
+	raf -> u0126
+	mek -> g0076
+	mek -> u0126
+	plc -> pip2
+	pip2 -> pip3
+	pip2 -> psitect
+	pip3 -> plc
+	pip3 -> aktinhib
+	erk -> g0076
+	akt -> erk
+	akt -> g0076
+	pka -> erk
+	pka -> icam2
+	pka -> g0076
+	pkc -> p38
+	pkc -> jnk
+	p38 -> g0076
+	cd3_cd28 -> pma
+	cd3_cd28 -> b2camp
+	icam2 -> u0126
+	aktinhib -> icam2
+	aktinhib -> psitect
+	g0076 -> plc
+	g0076 -> jnk
+	g0076 -> u0126
+	psitect -> icam2
+	u0126 -> erk
+	u0126 -> aktinhib
+	u0126 -> psitect
+	ly -> icam2
+	ly -> aktinhib
+	ly -> psitect
+	ly -> u0126
+	pma -> b2camp
+}

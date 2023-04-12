@@ -1,0 +1,16 @@
+digraph {
+	X
+	Y
+	F
+	K
+	C
+	Z
+	E
+	X -> E [label=0.8]
+	Y -> Z [label=1.49]
+	F -> X [label=-0.02]
+	F -> E [label=4.77]
+	C -> Z [label=2.82]
+	Z -> X [label=0.05]
+	Z -> E [label=0.53]
+}
