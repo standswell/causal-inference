@@ -1,5 +1,11 @@
 # causal-inference
 
+# My Project
+
+## SVG Animation
+
+Check out this cool animation [here](https://github.com/standswell/causal-inference/blob/main/githubtest.html).
+
 Welcome to our research project on the use of causal inference in analysing and modelling business problems. This project aims to explore the effectiveness of causal inference techniques in providing insights into various business problems and how it can help decision-makers make informed decisions.
 
 Causal inference is a statistical approach that seeks to determine the causal relationship between variables. It is an essential tool for researchers who want to understand the underlying mechanisms that drive the outcomes of interest. In the context of business, causal inference can help in identifying the factors that influence business performance, predicting the impact of potential interventions, and evaluating the effectiveness of policies and strategies.
