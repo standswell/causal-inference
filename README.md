@@ -6,6 +6,9 @@
 
 Check out this cool animation [here](https://standswell.github.io/causal-inference/githubtest.html).
 
+![Animation](https://media.giphy.com/media/l4pTdcifRZeORRzKw/giphy.gif)
+
+
 
 Welcome to our research project on the use of causal inference in analysing and modelling business problems. This project aims to explore the effectiveness of causal inference techniques in providing insights into various business problems and how it can help decision-makers make informed decisions.
 
