@@ -44,5 +44,13 @@ By replacing <data_path_to_test> with the absolute path of your dataset and <exp
 Keep in mind in the current implementation the data input need to be numeric and if not the columns containing non-numeric data will be removed from the data.
 
 
+<svg width="400" height="180">
+  <rect width="100%" height="100%" fill="red">
+    <animate attributeName="fill" from="red" to="blue" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
+
+
+
 
 
